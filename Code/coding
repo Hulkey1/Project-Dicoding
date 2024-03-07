@@ -4,5 +4,12 @@ import matplotlib.pyplot as mlpl
 import seaborn as sr
 import streamlit as sl
 
+# menginput data day dan hour
 day = pd.read_csv("Dataset/day.csv")
   day.head()
+
+hour = pd.read_csv("Dataset/hour.csv")
+  hour.head()
+
+
+
