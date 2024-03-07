@@ -1,0 +1,8 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as mlpl
+import seaborn as sr
+import streamlit as sl
+
+day = pd.read_csv("Dataset/day.csv")
+  day.head()
